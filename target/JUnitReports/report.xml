@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.38" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Verify checkout function in Green Kart Website" name="Successfully add max and min price Item to cart and check out" time="11.232">
+<system-out><![CDATA[
+Given user go to Green Kart home page.......................................passed
+And user verifies page title as "GreenKart - veg and fruits kart"...........passed
+When user capture all prices from descending order..........................passed
+Then user adds the max and min price item to cart and capture total price...passed
+And user clicks on cart button then proceed to checkout.....................passed
+Then user verifies total price previous page................................passed
+And user click on place order...............................................passed
+Then user chooses country as "United States"................................passed
+And user clicks on check box for terms and conditions.......................passed
+And user clicks on proceed button...........................................passed
+Then user verify "Thank you, your order has been placed successfully" message.passed
+]]></system-out>
+</testcase>
+</testsuite>
